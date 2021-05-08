@@ -1,0 +1,9 @@
+/home/wuhang/GrowPC/data/genpc/build/CMakeFiles/install/strip.dir
+/home/wuhang/GrowPC/data/genpc/build/CMakeFiles/install/local.dir
+/home/wuhang/GrowPC/data/genpc/build/CMakeFiles/install.dir
+/home/wuhang/GrowPC/data/genpc/build/CMakeFiles/surface_construct.dir
+/home/wuhang/GrowPC/data/genpc/build/CMakeFiles/edit_cache.dir
+/home/wuhang/GrowPC/data/genpc/build/CMakeFiles/obj_scan.dir
+/home/wuhang/GrowPC/data/genpc/build/CMakeFiles/rebuild_cache.dir
+/home/wuhang/GrowPC/data/genpc/build/CMakeFiles/genpc.dir
+/home/wuhang/GrowPC/data/genpc/build/CMakeFiles/list_install_components.dir

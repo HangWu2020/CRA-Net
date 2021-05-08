@@ -1,0 +1,8 @@
+/home/wuhang/GrowPC/data/virtual_cam/build/CMakeFiles/install/strip.dir
+/home/wuhang/GrowPC/data/virtual_cam/build/CMakeFiles/install/local.dir
+/home/wuhang/GrowPC/data/virtual_cam/build/CMakeFiles/virtual_cam.dir
+/home/wuhang/GrowPC/data/virtual_cam/build/CMakeFiles/obj_scan.dir
+/home/wuhang/GrowPC/data/virtual_cam/build/CMakeFiles/rebuild_cache.dir
+/home/wuhang/GrowPC/data/virtual_cam/build/CMakeFiles/edit_cache.dir
+/home/wuhang/GrowPC/data/virtual_cam/build/CMakeFiles/list_install_components.dir
+/home/wuhang/GrowPC/data/virtual_cam/build/CMakeFiles/install.dir
