@@ -49,7 +49,7 @@ int main(int argc,char **argv){
 
     for (int i = 0; i < num_sample; ++i){
         srand((int)time(0));
-        phai = rand()%35;
+        phai = rand()%60-30;  // means that the vertical field of view is [-30,30]
 		//phai = 10;
         theta = rand()%360;
 		//theta = 220;

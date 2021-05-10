@@ -26,6 +26,9 @@ python format.py off/file/direction/in/your/computer/ obj/file/direction/you/wan
 ```
 For any questions, or request of our processed models, please contact wuhang100@sjtu.edu.cn.
 
+## Compile CD/EMD
+The ```pc_distance``` folder in ```code_v1``` or ```code_v2``` are CD and EMD loss borrowed from [PCN](https://github.com/wentaoyuan/pcn), please follow their instructions to compile them.
+
 ## Code V1 
 ### Requirements
 ```
@@ -34,14 +37,14 @@ tensorflow 1.14
 open3d 0.9.0 
 python_pcl
 ```
-### Training Steps
+### Train
 ```
 cd code_v1
 mkdir log
 mkdir -p restore/pretrain restore/fine
 python train_cd_emd.py
 ```
-### Test Steps
+### Test
 ```
 mkdir -p output/pcd_file/coarse output/pcd_file/fine
 python test.py
@@ -54,11 +57,15 @@ python 3.7
 tensorflow 2.4.1
 open3d 0.9.0
 ```
-
+### Train
+```
+cd code_v2
+python train_cd_emd.py
+```
 ## Faster ANQ
 ### Requirements
 ```
 python 3.7 
 tensorflow 2.4.1 (should also work with tf1)
 ```
-We also provide GPU version of ```ANQ```, please refer to ```code_v2/tf_ops``` for compiling. At current step, this costumed operation works when ```batchsize=1``` in test.
+We also provide GPU version of ```ANQ```, please refer to ```code_v2/tf_ops``` for compiling. At current step, this customized operation works when ```batchsize=1``` in test.
